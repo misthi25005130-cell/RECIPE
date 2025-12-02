@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Recipe Blog</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 800px; margin: auto; }
+        .recipe {
+            background: #fff;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+        h1, h2 { color: #444; }
+        .section-title {
+            margin-top: 40px;
+        }
+        label { display: block; margin: 8px 0 4px; }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        .rating {
+            color: rgb(255, 119, 0);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🍽 Simple Recipe Blog</h1>
+
+    <h2 class="section-title">Submit a Recipe</h2>
+
+    <!-- No functions: just form UI -->
+    <form>
+        <label>Recipe Title</label>
+        <input type="text" placeholder="Enter title">
+
+        <label>Ingredients</label>
+        <textarea rows="4" placeholder="List ingredients"></textarea>
+
+        <label>Instructions</label>
+        <textarea rows="4" placeholder="Write instructions"></textarea>
+
+        <button type="submit">Add Recipe (static form only)</button>
+    </form>
+
+    <h2 class="section-title">Recipes</h2>
+
+    <!-- STATIC RECIPE CARDS (manual entries) -->
+    <div class="recipe">
+        <h3>Spaghetti Carbonara</h3>
+        <p><b>Ingredients:</b> Spaghetti, eggs, parmesan, pancetta</p>
+        <p><b>Instructions:</b> Cook pasta, mix eggs & cheese, fry pancetta, combine.</p>
+        <p class="rating">⭐ 4.5</p>
+    </div>
+
+    <div class="recipe">
+        <h3>Chocolate Cake</h3>
+        <p><b>Ingredients:</b> Flour, cocoa, sugar, eggs, butter</p>
+        <p><b>Instructions:</b> Mix ingredients, bake for 30 minutes.</p>
+        <p class="rating">⭐ 5.0</p>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
